@@ -1,0 +1,28 @@
+{
+  "name": "atcoder-js-template",
+  "version": "0.1.0",
+  "description": "The JavaScript template for AtCoder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./dist/main.js",
+    "build": "webpack",
+    "setup": "cp ./templates/index.js ./src/index.js"
+  },
+  "keywords": [],
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "big-integer": "^1.6.48",
+    "core-js": "^3.6.1",
+    "lodash": "^4.17.15"
+  }
+}
